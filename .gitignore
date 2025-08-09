@@ -1,0 +1,18 @@
+# SuperKart .gitignore 
+# React node modules
+client/superkart/node_modules/
+
+# React build
+client/superkart/build/
+
+# IntelliJ IDEA
+server/kart-eCommerce/.idea/
+
+# Spring Boot build output
+server/kart-eCommerce/target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
