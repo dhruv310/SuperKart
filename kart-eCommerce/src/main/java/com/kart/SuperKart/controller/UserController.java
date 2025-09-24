@@ -21,15 +21,6 @@ public class UserController {
         User user = userService.getUserById(userId);
         UserDto userDto = userService.convertUserToDto(user);
         return ResponseEntity.ok(new ApiResponse("Found!", userDto));
-        // Assignment 8
-
-        // Create a solution to return a user with the specified information.
-        // Return along with the user:
-        // The user cart.
-        // The user order list.
-
-        //Hint remember the concept of the DTO and the ModelMapper
-        // to break unnecessary relationship with the returning data.
     }
 
 
